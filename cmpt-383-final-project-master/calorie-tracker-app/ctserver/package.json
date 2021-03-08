@@ -1,0 +1,14 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "node.js server for CMPT 383 project.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jacob Wharrie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

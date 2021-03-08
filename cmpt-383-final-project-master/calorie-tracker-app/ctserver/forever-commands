@@ -1,0 +1,14 @@
+start server:
+forever start server.js
+
+list all running processes with their [#]:
+forever list
+
+stop a process:
+forever stop [#]
+
+restart a running process:
+forever restart [#]
+
+restart automatically when server.js file changes:
+forever -w server.js
